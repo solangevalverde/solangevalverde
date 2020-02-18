@@ -173,7 +173,7 @@ body{
    /*  justify-content: center;*/
   }
   .meLanding{
-    /* filter:grayscale(); */
+   
     max-width: 60em;
     height: auto;
     width:100%;
@@ -385,12 +385,41 @@ height: auto;
     border: solid #5B6DCD 10px;
 }*/
 /* ////////////////////////////////////////////////////////////////////////////////////
+    Medium
+///////////////////////////////////////////////////////////////////////////////////////
+*/
+@media only screen and (max-width: 800px) and (min-width: 601px) {
+
+  .infoContainer {
+    margin: 5em 2em;
+}
+.meLanding {
+  max-width: 23em;
+  height: auto;
+  width: fit-content;}
+
+}
+
+@media only screen and (max-width: 654px) and (min-width: 610px) {
+
+  .infoContainer {
+    margin: 4em 2em;
+}
+.meLanding {
+  max-width: 20em;
+  height: auto;
+  width: fit-content;}
+
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////
     Mobile
 ///////////////////////////////////////////////////////////////////////////////////////
 */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 609px) {
   .bg {
-    background-image: url("../img/plantFaded.png");
+    background-image: url("../img/plantFadedMobile.png");
     background-position: center;
     background-repeat: no-repeat;
     margin-top:0;
@@ -412,7 +441,7 @@ height: auto;
 }
 
 .infoContainer {
-  margin: 5em 2em;
+  margin: 4em 2em;
   text-align: center;
 }
 
